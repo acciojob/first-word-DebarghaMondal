@@ -2,10 +2,10 @@ function firstWord(s) {
 // your code here
 if (s === '') {
 return '';
-	
+
 }
 
-let firstWord = s.split(" ");
+let firstWord = s.trim().split(" ");
 return firstWord[0];
 } 
 // Do not change the code below
