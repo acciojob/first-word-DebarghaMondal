@@ -5,8 +5,8 @@ return '';
 	
 }
 
-let firstWord = s.split(" ")[0]
-return firstWord;
+let firstWord = s.split(" ");
+return firstWord[0];
 } 
 // Do not change the code below
 
