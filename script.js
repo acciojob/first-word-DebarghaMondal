@@ -1,8 +1,12 @@
 function firstWord(s) {
-  // your code here
+  // your code here  
+if (s === '') {
+	return '';
+}
+	
 let firstWord = s.split(" ")[0]
 return firstWord;
-	
+
 }
 
 // Do not change the code below
